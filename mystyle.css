@@ -1,0 +1,215 @@
+.home-page{
+    
+    background-color:black;
+    margin-left: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    /*text-align: center; */
+    background-size: cover;
+    position: relative;
+    color: white;
+    
+}
+
+.topcontainer{
+    height: 100vh;
+    margin: 0px;
+    background-image: url('dp.png');
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+}
+.container-fluid{
+    padding: 3% 15%;
+    
+}
+
+.contact{
+    background-image: url("contact-me.webp");
+    height: 100vh;
+   
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: black;
+    font-size: 2rem;
+}
+
+
+
+.edu{
+    background-image: url("edu_pic.webp");
+    height: 100vh;
+   
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #DDDDDD;
+    padding: 5% 15%;
+
+}
+
+/* .contact{
+    color: black;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/4066295/pexels-photo-4066295.jpeg?auto=compress&cs=tinysrgb&w=600");
+    
+}*/
+  
+.skills{
+    background-image: url('https://images.pexels.com/photos/13799229/pexels-photo-13799229.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load'); 
+
+     height: 100vh;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+.hobbies{
+    background-image: url('hobbies_pic.jpeg'); 
+    height: 100vh;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+    /*background-image: url("https://previews.123rf.com/images/dimapolie/dimapolie1804/dimapolie180400066/98944772-vector-hobby-pattern-hobby-seamless-background.jpg"); */
+   }
+
+
+/*.first{
+    
+    https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&w=600
+    width: 200px;
+    https://tse3.mm.bing.net/th?id=OIP.PNsLEYSwJaSoGdyNVMC7CQHaEK&pid=Api&P=');
+    height: 200px;
+    color: whitesmoke;
+    font-family: 'Charm', cursive;
+
+    https://images.pexels.com/photos/2098427/pexels-photo-2098427.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr='
+
+    contact
+    https://images.pexels.com/photos/399161/pexels-photo-399161.jpeg?auto=compress&cs=tinysrgb&w=600
+*/
+    
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 7rem;
+    color: black;
+}
+.top-cloud{
+position:absolute;
+margin-left: 400px;
+margin-bottom: 150px;
+}
+.bottom-cloud{
+    position:absolute;
+    margin-right: 200px;
+}
+.img1{
+   position: relative;
+   background-color: #C0EEE4;
+   color:#C0EEE4 ;
+   border-radius: 100%;
+   height: 300px;
+   width: 300px;
+}
+.my-profile{
+    border-radius: 100%;
+   position: relative;
+   background-color: #C0EEE4;
+   color:#C0EEE4 ;
+   height: 25%;
+   width: 25%;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+.student{
+    height: 50%;
+    width: 50%;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    column-width: 10px;
+    font-size: 1.5rem;
+    color: white;
+    column-gap: 40px; 
+}
+.h4-text{
+    color:white;
+    padding: 5% 20%;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    
+}
+hr{
+    height:0px;
+    width: 30%;
+    border-style: none;
+    border-top-style: dotted;
+    border-color:whitesmoke;
+    border-width: 5px;
+}   
+
+a{
+    color: white;
+}
+h2{
+    font-family: 'Arvo', serif;
+}
+
+.mail-me{
+    color:white;
+}
+p{
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+.top-table{
+    color: black;
+}
+
+
+
+.container-fluid
+{
+    padding: 0% 2%;
+    
+}
+.navbar
+{
+    padding-bottom: 1.5rem;
+    
+}
+.navbar-brand
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight : bolder;
+    color: black;
+}
+.nav-item
+{
+    padding: 0px 18px;
+    
+}
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+    color: black;
+}
+.main
+{
+   background-color: black;
+}
+
