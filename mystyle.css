@@ -95,7 +95,81 @@
     contact
     https://images.pexels.com/photos/399161/pexels-photo-399161.jpeg?auto=compress&cs=tinysrgb&w=600
 */
-    
+
+
+* {
+    box-sizing:border-box;
+  }
+  
+  textarea {
+    width:100%;
+    resize: vertical;
+    padding: 10px;
+    border: radius 20px;
+    border:0;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+    height:200px;
+    width: 200px;
+  }
+
+
+  #testimonials
+{
+    background-image: url('hobbies_pic.jpeg'); 
+    height: 100vh;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+.testimonial-txt
+{
+    line-height: 1.5;
+    font-size: 3rem;
+}
+.test
+{
+    width: 10%;
+    border: 100%;
+    margin: 20px;
+
+}
+  
+
+
+
+
+
+
+.hob{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    margin: 15px;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.hob1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    overflow: hidden;
+}
+
+.carousel-item{
+
+    text-align: center;
+}
+
+.ert{
+    font-family: 'Labrada', serif;
+}
 h1{
     font-family: 'Sacramento', cursive;
     font-size: 7rem;
@@ -183,12 +257,13 @@ p{
 .container-fluid
 {
     padding: 0% 2%;
-    
+    position:fixed;
+   
 }
 .navbar
 {
     padding-bottom: 1.5rem;
-    
+   
 }
 .navbar-brand
 {
@@ -196,6 +271,7 @@ p{
     font-size: 2.5rem;
     font-weight : bolder;
     color: black;
+    
 }
 .nav-item
 {
