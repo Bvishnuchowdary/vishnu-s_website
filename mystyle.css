@@ -10,14 +10,55 @@
     
 }
 
-.topcontainer{
-    height: 100vh;
-    margin: 0px;
-    background-image: url('dp.png');
-    background-repeat:no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
-    background-size: cover;
+@media (max-width:992px){
+    .topcontainer{
+        height: 100vh;
+        margin: 0px;
+        background-image: url('dp.png');
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-position: center; 
+        background-size: cover;
+        padding-top: 50%;
+        text-align: left;
+    }
+  
+    .qwer{
+        padding-left: 20px;
+        padding-top: 50px; color: black;
+        font-size: 13px;
+        width: 45%;
+      }
+      .asdf{
+        
+       padding-left: 20px; padding-top: 50px;
+       font-size: 2.5rem;
+      }
+}
+
+
+@media (min-width:992px){
+    .topcontainer{
+        height: 100vh;
+        margin: 0px;
+        background-image: url('dp.png');
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-position: center; 
+        background-size: cover;
+    }
+
+  .qwer{
+    padding-left: 150px; padding-top: 50px; color: black;
+    font-size: 20px;
+  }
+  .asdf{
+    
+   padding-left: 150px; padding-top: 50px;
+   font-size: 4rem;
+  }
+
+
 }
 .container-fluid{
     padding: 3% 15%;
@@ -36,7 +77,29 @@
     font-size: 2rem;
 }
 
+@media (max-width:992px){
+    
+.edu{
+    background-image: url("edu_pic.webp");
+    height: 160vh;
+   
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #DDDDDD;
+    padding: 5% 15%;
 
+}
+
+.zxc{
+    font-size: 20px;
+}
+
+testimonial-txt{
+    color: white;
+}
+}
 
 .edu{
     background-image: url("edu_pic.webp");
@@ -58,16 +121,49 @@
     
 }*/
   
+@media (max-width:992px){
+    .skills{
+        background-image: url('skills_new_pic.jpeg'); 
+    
+         height: 160vh;
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        font-size: medium;
+    }
+}
 .skills{
     background-image: url('skills_new_pic.jpeg'); 
 
-     height: 100vh;
     background-size: cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
     background-position: center;
+    padding-bottom: 50px;
     
 }
+
+@media(max-width:992px)
+{
+    .hobbies{
+        background-image: url('hobbies_pic.jpeg'); 
+        height: 100vh;
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        
+        /*background-image: url("https://previews.123rf.com/images/dimapolie/dimapolie1804/dimapolie180400066/98944772-vector-hobby-pattern-hobby-seamless-background.jpg"); */
+       }
+
+       .testimonial-txt{
+        color: white;
+        font-size: 1rem;
+    }
+
+}
+
 
 .hobbies{
     background-image: url('hobbies_pic.jpeg'); 
@@ -127,6 +223,7 @@
 {
     line-height: 1.5;
     font-size: 3rem;
+    color: white;
 }
 .test
 {
@@ -263,6 +360,7 @@ p{
 .navbar
 {
     padding-bottom: 1.5rem;
+    position: fixed;
    
 }
 .navbar-brand
@@ -286,6 +384,10 @@ p{
 }
 .main
 {
-   background-color: black;
+   color: black;
+}
+
+.xcv{
+    background-color: black;
 }
 
